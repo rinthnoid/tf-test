@@ -12,7 +12,7 @@ MODEL_PATH = 'model/best_model.h5'
 model = load_model(MODEL_PATH)
 
 # Class names – same as during training
-class_names = ['apple', 'banana', 'bread', 'chips', 'soda']  # update this!
+class_names = ['banana', 'coke', 'tiger', 'lays']  # update this!
 
 IMG_SIZE = 512
 
