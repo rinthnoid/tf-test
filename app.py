@@ -8,7 +8,7 @@ import os
 app = Flask(__name__)
 
 # Load model
-MODEL_PATH = 'model/best_model.h5'
+MODEL_PATH = './model/best_model.h5'
 model = load_model(MODEL_PATH)
 
 # Class names – same as during training
